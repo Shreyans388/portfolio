@@ -1,0 +1,197 @@
+  */
+ *{
+  padding: 0px;
+  margin: 0px;
+  background-color: black;
+ }
+ html {
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+}
+ .page1{
+  height: 100vh;
+  background-image: url(./SHREYANS.jpeg);
+   background-position: center; 
+  background-size: cover;
+ }
+ .logo{
+  height: 25px;
+  width: 25px;
+ }
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+ height: 80px;
+ width: 100%;
+ color: white;
+}
+.imgshreyu{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 20px;
+}
+.imgshreyu a{
+  color:white;
+  text-decoration: none;
+  /* transition-duration: 0.4s; */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.imgshreyu a:hover {
+  background-color: #575757;
+  color: #fff;
+  border-color: #fff;
+  border-radius: 3px;
+  padding: 10px 10px;
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.imsh a.active {
+  color: #ffcc00;
+  font-weight: bold;
+}
+.centre{
+  height: 90vh;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:#d9d9d9;
+  gap: 0px;
+  font-family:neue-haas-grotesk-display, sans-serif;
+}
+.b1ig-name {
+  font-size: 10rem;
+  margin: 0px;
+  padding: 0px;
+  text-shadow: 3px 4px 3px black;
+  font-family:neue-haas-grotesk-display, sans-serif;
+  position: relative;
+}
+.b2ig-name {
+  position: absolute;
+  text-shadow: 3px 4px 3px black;
+  font-size: 3rem;
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  font-family: "neue-haas-grotesk-display", sans-serif;
+}
+.section {
+    padding: 60px 100px;
+    background-color:black;
+    letter-spacing: 0px;
+    color:white;
+    line-height: 2;
+    word-spacing: 0.1em;
+    margin-top: 20px;
+    transition: color 0.1s ease, font-size 0.1s ease, letter-spacing 0.1s ease;
+    background-image: url(./bg\ \(1\).jpg);
+}
+
+
+.section:hover {
+  color:white; 
+  font-size: 20px; 
+  letter-spacing: 2px; 
+}
+
+.heading {
+    text-decoration: underline;
+    color:whitesmoke;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .centre {
+    width: 90%;
+    height: auto; 
+    gap: 20px; 
+  }
+
+  .b1ig-name {
+    font-size: 6rem;
+  }
+
+  .b2ig-name {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .centre {
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .b1ig-name {
+    font-size: 5rem; 
+  }
+
+  .b2ig-name {
+    font-size: 2rem;
+  }
+
+  .imgshreyu {
+    gap: 20px;
+    margin-right: 0;
+  }
+
+  .nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .imgshreyu a {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .centre {
+    width: 100%;
+    height: auto;
+  }
+
+  .b1ig-name {
+    font-size: 4rem; 
+  }
+
+  .b2ig-name {
+    font-size: 1.8rem;
+  }
+
+  .nav {
+    padding: 10px;
+  }
+
+  .imgshreyu {
+    gap: 15px;
+  }
+}
+
+
+
+
+
