@@ -154,6 +154,7 @@ h2 {
   .imgshreyu {
     gap: 20px;
     margin-right: 0;
+   flex-wrap:wrap;
   }
 
   .nav {
@@ -161,7 +162,6 @@ h2 {
     justify-content: center;
     align-items: center;
     gap: 10px;
-   flex-wrap:wrap;
   }
 
   .imgshreyu a {
@@ -189,6 +189,7 @@ h2 {
 
   .imgshreyu {
     gap: 15px;
+   flex-wrap:wrap;
   }
 }
 
