@@ -29,6 +29,8 @@ body{
  height: 80px;
  width: 100%;
  color: white;
+  position:fixed;
+ top:0;
 }
 .imgshreyu{
   display: flex;
@@ -37,8 +39,7 @@ body{
   align-items: center;
   text-align: center;
   margin-right: 20px;
- position:fixed;
- top:0;
+
 }
 .imgshreyu a{
   color:white;
